@@ -30,6 +30,9 @@ The `iam_challenge` script automates the creation of users and groups in Linux s
 ### Usage
 
 ```bash
+chmod +x iam_challenge
+```
+```bash
 sudo ./iam_challenge [OPTIONS]
 ```
 
@@ -55,7 +58,9 @@ sudo ./iam_challenge -f custom_users.csv -e -l setup.log
 The `iam_cleanup` script safely removes users and optionally their home directories and groups, based on the same CSV file used for creation.
 
 ### Usage
-
+```bash
+chmod +x iam_cleanup
+```
 ```bash
 sudo ./iam_cleanup [OPTIONS]
 ```
