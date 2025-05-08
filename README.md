@@ -35,6 +35,11 @@ chmod +x iam_challenge
 ```bash
 sudo ./iam_challenge [OPTIONS]
 ```
+To create users & groups as well as add sending email
+
+```bash
+sudo ./iam_challenge -e
+```
 
 ### Options
 
@@ -63,6 +68,11 @@ chmod +x iam_cleanup
 ```
 ```bash
 sudo ./iam_cleanup [OPTIONS]
+```
+To delete the groups as well 
+
+```bash
+sudo ./iam_cleanup -g
 ```
 
 ### Options
