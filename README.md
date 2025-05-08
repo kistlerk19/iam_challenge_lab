@@ -2,6 +2,8 @@
 
 This repository contains automation scripts for Linux Identity and Access Management (IAM) tasks. The tools provide a streamlined way to handle user and group creation, management, and cleanup through CSV-based configurations.
 
+Screenshots demonstrating the commands running can be found in the `screenshots/` folder.
+
 ## Contents
 
 - `iam_challenge` - Script for creating users and groups with specific settings
